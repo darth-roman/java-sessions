@@ -2,7 +2,17 @@ package TP2;
 
 public class Main {
 	public static void main(String args[]) {
-		Point p1 = new Point(3.0, 2.0);
-		System.out.println(p1.pointSymX(5.0));
+		Student s1 = new Student();
+		s1.name = "John Doe";
+		s1.age= 25;
+		
+		int a = 0;
+		
+		
+		Animal animal1 = new Animal();
+
+		//Animal animal2 = new Animal("Domestic", "House", 40f, "Desert");
+		
+		System.out.println("I weigh "+animal1.weight+" And i live in "+animal1.placeOfLiving);
 	}
 }
